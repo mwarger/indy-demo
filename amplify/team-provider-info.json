@@ -1,0 +1,14 @@
+{
+    "local": {
+        "awscloudformation": {
+            "AuthRoleName": "indy-demo-20190426155915-authRole",
+            "UnauthRoleArn": "arn:aws:iam::520335913573:role/indy-demo-20190426155915-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::520335913573:role/indy-demo-20190426155915-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "indy-demo-20190426155915-deployment",
+            "UnauthRoleName": "indy-demo-20190426155915-unauthRole",
+            "StackName": "indy-demo-20190426155915",
+            "StackId": "arn:aws:cloudformation:us-east-1:520335913573:stack/indy-demo-20190426155915/c654e350-685d-11e9-bc2e-0afcd132dcac"
+        }
+    }
+}

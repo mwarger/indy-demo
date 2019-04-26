@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "indydemo6bd6eaa9",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "indydemorest",
+    "apiName": "indydemorest",
+    "functionArns": [
+        {
+            "lambdaFunction": "indydemo6bd6eaa9"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "indy-demo-20190426155915-authRole",
+        "unAuthRoleName": "indy-demo-20190426155915-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "indydemo6bd6eaa9",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
